@@ -1,0 +1,182 @@
+PORTFÖY SİTESİNİ YAYINLAMA ADIMLARI
+=====================================
+
+0. GELİŞTİRME SÜRECİ
+-------------------------------------
+A) FRONTEND GELİŞTİRME
+- Tasarım ve Planlama:
+  * Figma veya Adobe XD ile tasarım mockup'ları oluştur
+  * Renk paleti ve tipografi seç
+  * Responsive breakpoint'leri belirle
+
+- Temel Yapı:
+  * HTML dosyalarını semantic yapıda oluştur
+  * CSS dosyalarını modüler yapıda organize et
+  * JavaScript dosyalarını modüler yapıda düzenle
+  * Asset'leri (görseller, fontlar, ikonlar) optimize et
+
+- Geliştirme Araçları:
+  * Version control için Git kullan
+  * Package manager (npm veya yarn) kur
+  * Webpack veya Vite ile build sistemi oluştur
+  * SASS/SCSS preprocessor kullan
+  * ESLint ve Prettier ile kod formatı standardize et
+
+- Performans Optimizasyonu:
+  * Lazy loading uygula
+  * Code splitting yap
+  * Asset'leri minify et
+  * Cache stratejisi belirle
+  * Progressive Web App (PWA) desteği ekle
+
+B) BACKEND GELİŞTİRME
+- API Yapılandırması:
+  * RESTful API endpoints oluştur
+  * API dokümantasyonu hazırla
+  * Rate limiting uygula
+  * CORS politikalarını ayarla
+
+- Veritabanı:
+  * MongoDB veya PostgreSQL kur
+  * Veritabanı şeması oluştur
+  * Veritabanı indexleme yap
+  * Backup stratejisi belirle
+
+- Güvenlik:
+  * JWT authentication uygula
+  * Input validation ekle
+  * XSS ve CSRF koruması ekle
+  * Rate limiting uygula
+  * SSL/TLS sertifikası kur
+
+- Email Sistemi:
+  * SMTP sunucusu ayarla
+  * Email şablonları oluştur
+  * Email doğrulama sistemi kur
+
+- Deployment:
+  * CI/CD pipeline kur (GitHub Actions)
+  * Docker containerization uygula
+  * Environment variables ayarla
+  * Monitoring sistemi kur (PM2)
+
+1. ALAN ADI (DOMAIN) İŞLEMLERİ
+-------------------------------------
+- ozhangebesoglu.com alan adını bir domain sağlayıcıdan satın al
+  * Önerilen sağlayıcılar: GoDaddy, Google Domains, Namecheap
+  * Yıllık ücret yaklaşık 15-20 USD
+  * Mümkünse auto-renewal (otomatik yenileme) özelliğini aktif et
+
+2. HOSTİNG HİZMETİ SEÇME
+-------------------------------------
+A) GitHub Pages (Ücretsiz Seçenek):
+- GitHub hesabına giriş yap
+- Repository adını "ozhangebesoglu.github.io" olarak değiştir
+- Settings > Pages bölümünden GitHub Pages'i aktifleştir
+- Custom domain kısmına "ozhangebesoglu.com" ekle
+- DNS ayarlarını GitHub Pages'in verdiği IP'lere yönlendir
+
+B) Alternatif Hosting Seçenekleri:
+- Netlify (Ücretsiz plan mevcut)
+- Vercel (Ücretsiz plan mevcut)
+- DigitalOcean (Aylık ~5 USD'den başlayan planlar)
+
+3. DOSYA HAZIRLIĞI
+-------------------------------------
+- Tüm dosyaların UTF-8 formatında olduğundan emin ol
+- Favicon ekle (site simgesi)
+- robots.txt dosyası oluştur
+- sitemap.xml oluştur
+- Meta etiketlerini SEO için optimize et
+- Sosyal medya meta etiketlerini ekle (og: tags)
+- Google Analytics kodunu ekle
+- Tüm görselleri optimize et
+
+4. SEO HAZIRLIĞI
+-------------------------------------
+- Title etiketlerini düzenle
+- Meta description ekle
+- Alt etiketlerini tüm görsellere ekle
+- Semantic HTML yapısını kontrol et
+- Header hiyerarşisini düzenle (h1, h2, h3)
+- URL yapısını kontrol et
+
+5. YAYINLAMA ÖNCESİ KONTROL LİSTESİ
+-------------------------------------
+- Tüm linklerin çalıştığını kontrol et
+- Responsive tasarımı test et (mobil uyumluluk)
+- Farklı tarayıcılarda test et (Chrome, Firefox, Safari, Edge)
+- Sayfa yükleme hızını optimize et
+- Form gönderimlerini test et
+- Tüm animasyonların düzgün çalıştığını kontrol et
+- Yazım hatalarını kontrol et
+- İletişim bilgilerinin doğruluğunu kontrol et
+- API endpoint'lerinin çalıştığını kontrol et
+- Veritabanı bağlantısını test et
+- Rate limiting'i test et
+- Security headers'ı kontrol et
+- SSL sertifikasını kontrol et
+- Email sistemini test et
+
+6. YAYINLAMA SONRASI YAPILACAKLAR
+-------------------------------------
+- Google Search Console'a siteyi ekle
+- XML Site haritasını Google Search Console'a gönder
+- Google Analytics'i kontrol et
+- Düzenli olarak site performansını kontrol et
+- Yedekleme sistemi kur
+- SSL sertifikasının aktif olduğunu kontrol et (https://)
+- API monitoring sistemini kur
+- Error tracking sistemi kur (Sentry)
+- Uptime monitoring başlat
+- Veritabanı backup sistemini kontrol et
+
+7. BAKIM VE GÜNCELLEME PLANI
+-------------------------------------
+- Aylık içerik güncellemesi
+- Üç ayda bir SEO kontrolü
+- Altı ayda bir tasarım değerlendirmesi
+- Yıllık domain ve hosting yenileme kontrolü
+- Haftalık güvenlik güncellemeleri
+- Aylık dependency update
+- Üç ayda bir performance audit
+- Altı ayda bir security audit
+
+8. GELİŞTİRME ARAÇLARI VE KAYNAKLAR
+-------------------------------------
+Frontend:
+- VS Code veya WebStorm IDE
+- Chrome DevTools
+- React Developer Tools
+- Redux DevTools
+- Lighthouse
+- PageSpeed Insights
+
+Backend:
+- Postman veya Insomnia
+- MongoDB Compass
+- PM2
+- Docker Desktop
+- Nginx
+- Let's Encrypt
+
+Monitoring:
+- Google Analytics
+- Sentry
+- Grafana
+- Prometheus
+- Uptime Robot
+
+Version Control:
+- GitHub Desktop
+- SourceTree
+- GitKraken
+
+NOT: Bu adımları sırasıyla takip etmek önemlidir. Her adımı tamamladıktan sonra 
+test etmek ve sorunları çözmek, sitenin sorunsuz çalışması için kritiktir.
+
+ÖNEMLİ HATIRLATMALAR:
+- Tüm şifreleri güvenli bir yerde sakla
+- Domain ve hosting yenileme tarihlerini takvime ekle
+- Düzenli yedekleme yap
+- SEO ve site performansını düzenli olarak kontrol et 
